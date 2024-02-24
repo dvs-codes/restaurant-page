@@ -3,7 +3,7 @@ const image = document.createElement('img')
 const description = document.createElement('div');
 const content = document.querySelector('#content')
 
-function contentAdder () {
+function homeAdder () {
     image.src = "../photo.jpg"
     heading.textContent = `Gorious Restaurant`
     description.textContent = `Lorem Ipsum is simply dummy
@@ -20,4 +20,4 @@ function contentAdder () {
     content.appendChild(description)
 }
 
-export {contentAdder}
+export {homeAdder, content}
