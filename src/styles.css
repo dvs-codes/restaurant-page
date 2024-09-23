@@ -1,0 +1,9 @@
+body {
+    background-image: url("../photos/back-image.gif");
+    background-repeat:initial;
+}
+
+#content {
+    color: white;
+    font-family: "Playfair Display", serif;
+}
